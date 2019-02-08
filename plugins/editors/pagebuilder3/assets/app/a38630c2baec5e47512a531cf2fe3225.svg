@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="21px" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44 (41411) - http://www.bohemiancoding.com/sketch -->
+    <title>Hide</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3" transform="translate(-269.000000, -629.000000)">
+            <g id="Media-Selector-3" transform="translate(243.000000, 179.000000)">
+                <g id="Content" transform="translate(0.079911, 105.484112)">
+                    <g id="Hide" transform="translate(25.917869, 344.639252)">
+                        <ellipse id="Oval" fill="#2196F3" cx="10.2591565" cy="10.2635514" rx="10.2591565" ry="10.2635514"></ellipse>
+                        <path d="M10.026389,6.71288996 C10.5868802,5.7651914 11.4924901,5.75990602 12.0561071,6.71288996 L15.7770151,13.0043344 C16.3375063,13.9520329 15.8893902,14.7202944 14.788509,14.7202944 L7.29398718,14.7202944 C6.1875591,14.7202944 5.74186391,13.9573183 6.305481,13.0043344 L10.026389,6.71288996 Z" id="Triangle" fill="#FFFFFF" transform="translate(11.040055, 10.360214) rotate(90.000000) translate(-11.040055, -10.360214) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

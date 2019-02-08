@@ -1,0 +1,42 @@
+body#sunfw-master .module-style-2 {
+  background-color: #333;
+}
+body#sunfw-master .module-style-2 .module-title .box-title {
+  background: #af9f56;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #fff;
+}
+body#sunfw-master .module-style-2 .module-title .box-title:before {
+  color: #fff;
+}
+body#sunfw-master .module-style-2 .module-body, body#sunfw-master .module-style-2 .custom {
+  color: #fff;
+}
+body#sunfw-master .module-style-1 .module-title .box-title {
+  background: #fff;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #333;
+}
+body#sunfw-master .module-style-1 .module-title .box-title:before {
+  color: #333;
+}
+body#sunfw-master .module-style-4 .module-title .box-title {
+  background: #fff;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #333;
+}
+body#sunfw-master .module-style-4 .module-title .box-title:before {
+  color: #333;
+}
+body#sunfw-master .module-style-3 .module-title .box-title {
+  background: #fff;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #333;
+}
+body#sunfw-master .module-style-3 .module-title .box-title:before {
+  color: #333;
+}

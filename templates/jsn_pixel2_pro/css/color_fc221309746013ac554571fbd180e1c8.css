@@ -1,0 +1,43 @@
+/* ============================ */
+@media (min-width: 768px) {
+  .main-menu ul.sunfw-tpl-menu > li.active::before, .main-menu ul.sunfw-tpl-menu > li:hover::before {
+    background: #97ab61;
+  }
+  .main-menu ul.sunfw-tpl-menu > li.megamenu ul.sunfw-megamenu-sub-menu .modulecontainer h3 {
+    border-left-color: #97ab61;
+  }
+  .menu-topmenu ul li:hover {
+    background: #97ab61;
+  }
+  .main-menu ul.sunfw-tpl-menu > li.megamenu ul.sunfw-megamenu-sub-menu {
+    border: 1px solid #b1c089;
+  }
+  .main-menu ul.sunfw-tpl-menu > li.megamenu ul.sunfw-megamenu-sub-menu .sunfw-item ul.menu li a, .main-menu ul.sunfw-tpl-menu > li.megamenu ul.sunfw-megamenu-sub-menu .sunfw-item .module-style > div ul.menu li a {
+    border-top: 1px solid #b1c089;
+  }
+  .main-menu ul.sunfw-tpl-menu > li.dropdown-submenu ul li a::before {
+    background-color: #b1c089;
+  }
+  .sunfw-megamenu-sub-menu .grid {
+    background: #97ab61 !important;
+  }
+}
+.demo-events .demo-events-desc h3 a {
+  color: #97ab61;
+}
+.item-student a {
+  color: #97ab61;
+}
+.menu.menu-treemenu li.active > a {
+  color: #97ab61;
+}
+.sunfw-scrollup {
+  background: #97ab61 !important;
+}
+.page-header h2 {
+  color: #97ab61;
+}
+#sunfw_section_copyright {
+  border-top: 1px solid #b1c089;
+}
+/* ============================ Sub Color ============================ */

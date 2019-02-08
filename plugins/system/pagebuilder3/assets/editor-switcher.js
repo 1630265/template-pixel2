@@ -1,0 +1,11 @@
+'use strict';window.addEventListener('load',function(){function a(){var j=0<arguments.length&&arguments[0]!==void 0?arguments[0]:'pagebuilder3';g.innerHTML='Switching Editor...',jQuery.ajax({url:'index.php?pb3ajax=1&task=switchEditor',data:{editor:j},complete:function complete(){b('switchFrom',f?f.current_editor||'none':'none')}})}function b(j,k){j=encodeURI(j),k=encodeURI(k);for(var n,l=document.location.search.substr(1).split('&'),m=l.length;m--;)if(n=l[m].split('='),n[0]==j){n[1]=k,l[m]=n.join('=');break}0>m&&(l[l.length]=[j,k].join('=')),document.location.search=l.join('&')}function c(j){var k=document.getElementById(window.pb_textarea_id)||document.querySelector('textarea[id^=\'jform\']')||document.querySelector('textarea[id^=\'text\']');if(k&&'string'==typeof k.value&&10<k.value.length){if(!/<!-- Start/.test(k.value)&&!f&&'pagebuilder3'===j)return void(d('This article content is not from PageBuilder 3, editing this may cause layout broken, are you sure to edit?')&&(window.stop(),a(j)));if(/<!-- Start/.test(k.value)&&f)return void(d('This article content is from PageBuilder 3, editing this may cause layout broken, are you sure to edit?')&&(window.stop(),a(j)))}a(j)}function d(j){var k=new Date().getTime();if(confirm(j))return!0;var l=new Date().getTime();return 50>l-k}var g=document.getElementById('jsn-pb3-editor-switcher'),_window=window,f=_window.pagefly_data;if(g&&document.querySelector('textarea')){if(f&&!f.isNewContent)try{f.isJoomla37&&(g.style.lineHeight='24px')}catch(j){}g.classList.remove('hidden'),g.nextElementSibling.addEventListener('click',function(j){if('A'==j.target.nodeName)return j.preventDefault(),c(j.target.href.substr(j.target.href.indexOf('#')+1)),!1})}var h=document.getElementById('pb-switch-pagebuilder3');h&&(console.log(h),h.addEventListener('click',function(j){localStorage.setItem('previewMode','false'),j.preventDefault(),j.stopPropagation(),a('pagebuilder3')}))});
+
+var data = {}
+if (!window.pb2_editor_data) {
+	window.pb2_editor_data = data
+
+}
+if (!window.pb_editor_data) {
+	window.pb_editor_data = data
+
+}

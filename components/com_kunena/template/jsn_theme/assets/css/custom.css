@@ -1,0 +1,96 @@
+#kunena.layout .navbar .navbar-inner ul li{
+	margin: 0;
+}
+#kunena .navbar .nav > li > a{
+	transition: color 0.3s linear 0s, background 0.3s ease-out 0s;
+	box-shadow: none;
+	text-shadow: none;
+}
+
+#kunena .navbar .nav>.active>a,#kunena.layout .nav > li:hover > a,#kunena.layout .nav > li:focus > a{
+	color: #222;
+}
+
+body.jsn-color-blue #kunena .navbar .nav>.active>a,body.jsn-color-blue #kunena.layout .nav > li:hover > a,body.jsn-color-blue #kunena.layout .nav > li:focus > a{
+	background: #68a0cf;
+}
+body.jsn-color-darkblue #kunena .navbar .nav>.active>a,body.jsn-color-grey #kunena.layout .nav > li:hover > a,body.jsn-color-grey #kunena.layout .nav > li:focus > a{
+	background: #424d51;
+}
+body.jsn-color-orange #kunena .navbar .nav>.active>a,body.jsn-color-orange #kunena.layout .nav > li:hover > a,body.jsn-color-orange #kunena.layout .nav > li:focus > a{
+	background: #d77b4e;
+}
+body.jsn-color-purple #kunena .navbar .nav>.active>a,body.jsn-color-violet #kunena.layout .nav > li:hover > a,body.jsn-color-violet #kunena.layout .nav > li:focus > a{
+	background: #854e6b;
+}
+body.jsn-color-green #kunena .navbar .nav>.active>a,body.jsn-color-green #kunena.layout .nav > li:hover > a,body.jsn-color-green #kunena.layout .nav > li:focus > a{
+	background: #8d9a48;	
+}
+body.jsn-color-red #kunena .navbar .nav>.active>a,body.jsn-color-red #kunena.layout .nav > li:hover > a, body.jsn-color-red #kunena.layout .nav > li:focus > a{
+	background: #af5546;
+}
+#kunena.layout .nav > li:hover > a.dropdown-toggle:not(#klogin), #kunena.layout .nav > li:focus > a.dropdown-toggle:not(#klogin){
+	background: none !important;
+}
+#kunena.layout i[class*=" icon-"]{
+	width: auto;
+}
+#kunena.layout .fa-big, #kunena.layout .icon-big{
+	margin: 10px 5px auto;
+}
+#kunena [class*="icon-"]{
+	background: none; 
+}
+#kunena .input-append .btn{
+	padding: 4px 12px;
+}
+#kunena a.hasTooltip{
+	display: inline-block !important;
+}
+#kunena .navbar-inner{
+	background: none;
+	box-shadow: none;
+}
+#kunena table > thead > tr > td {
+	background-color: #f1f1f1;
+}
+#kunena.layout .kfrontend .table td,
+#kunena .table-bordered,
+#kunena .navbar-inner,
+#kunena .table-bordered th,
+#kunena .table-bordered td,
+#kunena.layout .pagination ul > li > a,
+#kunena.layout .pagination ul > li > span,
+#kunena.layout legend {
+    border-color: #ccc;
+	border-radius: 0;
+}
+.kfrontend #kwho,
+.kfrontend #kstats {
+	padding-bottom: 30px;
+}
+#kunena .inputbox,
+#kunena textarea,
+#kunena input[type="text"],
+#kunena input[type="password"],
+#kunena input[type="datetime"],
+#kunena input[type="datetime-local"],
+#kunena input[type="date"], input[type="month"],
+#kunena input[type="time"], input[type="week"],
+#kunena input[type="number"],
+#kunena input[type="email"],
+#kunena input[type="url"],
+#kunena input[type="search"],
+#kunena input[type="tel"],
+#kunena input[type="color"], .uneditable-input,
+#kunena .input-append .btn,
+#kunena .well,
+#kunena select {
+    background-color: transparent;
+    border: 1px solid #ccc;
+	padding: 5px 10px;
+}
+.table-striped tbody > tr:nth-child(2n+1) > td,
+.table-striped tbody > tr:nth-child(2n+1) > th {
+	background-color: transparent;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44 (41411) - http://www.bohemiancoding.com/sketch -->
+    <title>Hide</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Left-column" transform="translate(-20.000000, -421.000000)">
+            <g id="Hide" transform="translate(20.000000, 421.000000)">
+                <path d="M8,16.0010692 C12.418278,16.0010692 16,12.4191078 16,8.00053459 C16,6.81837249 15.7436214,5.69609483 15.283436,4.686277 C14.0235842,1.92169365 11.2361949,0 8,0 C3.581722,0 0,3.58196135 0,8.00053459 C0,12.4191078 3.581722,16.0010692 8,16.0010692 Z" id="Oval" fill="#979797"></path>
+                <path d="M6.8890965,4.84222027 C7.14239732,4.3528054 7.55501756,4.35655079 7.80637991,4.84222027 L10.9561924,10.9281267 C11.2094933,11.4175415 10.9659182,11.8142907 10.4174226,11.8142907 L4.27805385,11.8142907 C3.72719864,11.8142907 3.48792161,11.4137961 3.73928397,10.9281267 L6.8890965,4.84222027 Z" id="Triangle" fill="#FFFFFF" transform="translate(7.347077, 8.407145) rotate(-90.000000) translate(-7.347077, -8.407145) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

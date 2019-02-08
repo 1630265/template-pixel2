@@ -1,0 +1,43 @@
+/* ============================ */
+@media (min-width: 768px) {
+  .main-menu ul.sunfw-tpl-menu > li.active::before, .main-menu ul.sunfw-tpl-menu > li:hover::before {
+    background: #54a1cd;
+  }
+  .main-menu ul.sunfw-tpl-menu > li.megamenu ul.sunfw-megamenu-sub-menu .modulecontainer h3 {
+    border-left-color: #54a1cd;
+  }
+  .menu-topmenu ul li:hover {
+    background: #54a1cd;
+  }
+  .main-menu ul.sunfw-tpl-menu > li.megamenu ul.sunfw-megamenu-sub-menu {
+    border: 1px solid #83bbdb;
+  }
+  .main-menu ul.sunfw-tpl-menu > li.megamenu ul.sunfw-megamenu-sub-menu .sunfw-item ul.menu li a, .main-menu ul.sunfw-tpl-menu > li.megamenu ul.sunfw-megamenu-sub-menu .sunfw-item .module-style > div ul.menu li a {
+    border-top: 1px solid #83bbdb;
+  }
+  .main-menu ul.sunfw-tpl-menu > li.dropdown-submenu ul li a::before {
+    background-color: #83bbdb;
+  }
+  .sunfw-megamenu-sub-menu .grid {
+    background: #54a1cd !important;
+  }
+}
+.demo-events .demo-events-desc h3 a {
+  color: #54a1cd;
+}
+.item-student a {
+  color: #54a1cd;
+}
+.menu.menu-treemenu li.active > a {
+  color: #54a1cd;
+}
+.sunfw-scrollup {
+  background: #54a1cd !important;
+}
+.page-header h2 {
+  color: #54a1cd;
+}
+#sunfw_section_copyright {
+  border-top: 1px solid #83bbdb;
+}
+/* ============================ Sub Color ============================ */
